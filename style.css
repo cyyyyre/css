@@ -1,0 +1,32 @@
+body{
+  background-color: #90EE90;
+}
+
+h1{
+  background-color: #000000;
+  padding: 50px;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+}
+.content{
+  background-color: #d0f0f6;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 50px;
+  width: 550px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 50px;
+  
+}
+ul.custom-bullet-text{
+   list-style-type: none;
+   margin: 0;
+  padding: 0;
+}
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
